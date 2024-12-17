@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.logo span {
+    color: #FF5722;
+    font-weight: bold;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header-links a {
+    text-decoration: none;
+    color: black;
+}
+.header-links a:hover {
+    text-decoration: underline;
+}
+.main-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e0ffe0;
+}
+.main-banner h1 {
+    color: #004d00;
+}
+.main-banner img {
+    max-height: 150px;
+    /* border-radius: 50%; */
+}
+.description {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px 0;
+}
+.description h2 {
+    color: #004d00;
+}
+.pedagogues {
+    padding: 20px;
+}
+.pedagogues h2 {
+    text-align: center;
+    color: #004d00;
+}
+.teachers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+.teacher {
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.teacher img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+footer {
+    background-color: #004d00;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.VKkafheader {
+    width: 100%;
+}
+
+.intro-p{
+    width: 1400px;
+}
+
+.imgzavkaf{
+    margin-left: 1500px;
+    margin-top: -350px;
+}
+
+.zav-p{
+    width: 1100px;
+}
+
+footer {
+    color: #333;
+    background-color: #d9d9d9;
+    padding: 20px 30px;
+    align-items: flex-start;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right{
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: #008000;
+    font-weight: bold;
+}
+
+.footer1 p {
+    margin: 0;
+    color: #333;
+}
+
+.footer-contact {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 130px;
+}
+
+.footer-icons img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
